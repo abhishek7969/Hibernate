@@ -1,0 +1,35 @@
+Table per class what is does?
+Advantage of teble_per_class strategy?
+Is discriminator required?
+Explain all the inhertance strategy?
+
+Inhertance strategy= JOIN (much more normalized the table_per_class)
+
+Data that has been inherited from the the parent does not goes to the child table.
+what ever the property inherited from the parent class will remain in the parent table, parent table will have the core properties,
+and all the child related properties will remain in the child class.
+
++-----------+-------------+
+| vehicleId | vehicleName |
++-----------+-------------+
+|         1 | car         |
+|         2 | DUKE KTM    |
+|         3 | BMW         |
++-----------+-------------+
+
+
++--------------------+-----------+
+| StreeringWheel     | vehicleId |
++--------------------+-----------+
+| steering wheel BMW |         3 |
++--------------------+-----------+
+
+
++----------------------+-----------+
+| SteeringHandler      | vehicleId |
++----------------------+-----------+
+| Steering handle bike |         2 |
++----------------------+-----------+
+
+
+select * from vehicle join fourwheeler on vehicle.vehicleId = fourwheeler.vehicleId;

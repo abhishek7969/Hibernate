@@ -1,0 +1,24 @@
+What is a HQL?
+what is sql injection and how can be prevented?
+what is a named query? (Allows us us to write queries at the entity level, and can be referred any where in application)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In SQL query we think of tables, but in HQL we think of object.Fetch all the details of this object.
+column name is the property name in the hql.
+instead of returning the record set , it return the list of object .

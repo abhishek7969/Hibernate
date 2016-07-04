@@ -1,0 +1,6 @@
+what is the difference between the transient object and persistent object?
+what is a detached object.
+what is difference between transient object and detached object.
+what do you mean by "hibernate start tracking the object?"(track changes made to the object)
+how do you move the object from detached to persistence.
+Explain @org.hibernate.annotations.Entity(selectBeforeUpdate=true)

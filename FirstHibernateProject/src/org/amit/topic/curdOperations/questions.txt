@@ -1,0 +1,1 @@
+Using session object to perform CURD operation in hibernate.

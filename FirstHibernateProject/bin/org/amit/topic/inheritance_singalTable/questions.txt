@@ -1,0 +1,7 @@
+How to achieve inheritance in hibernate?
+Different type of inheritance strategy provided by hibernate? (single_table, table_per_class, join)
+Default strategy provided by hibernate.
+what is a discriminator and its use?
+How to change Discriminator column name?
+How to change discriminator values default name?
+What the use of inheritance in hibernate?

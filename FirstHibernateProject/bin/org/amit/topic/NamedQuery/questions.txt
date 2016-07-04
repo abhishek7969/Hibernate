@@ -1,0 +1,15 @@
+what is a named query? (Allows us us to write queries at the entity level, and can be referred any where in application)
+We can write plan/native sql query in named query
+what is @ NamedNAtiveQuery(...)  ?
+
+
+
+
+
+
+
+
+
+
+
+
